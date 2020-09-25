@@ -1,8 +1,8 @@
 // declare variables
 let pointSize = 4;
-let rayLength = 0.1;
-let particleSize = 0.1;
-let brightness = 0.2;
+let rayLength = 10;
+let particleSize = 5;
+let brightness = 0.1;
 
 // setup canvas
 var canvas = document.querySelector('canvas');

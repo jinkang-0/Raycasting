@@ -4,7 +4,7 @@ class Particle {
     this.pos = new Vector(x, y);
     this.rays = [];
     
-    for (var a = 0; a < 360; a++) {
+    for (var a = 0; a < 360; a += 0.5) {
       this.rays.push( new Ray(this.pos, radian(a)) );
     }
   }
