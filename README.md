@@ -3,5 +3,7 @@ A project made by following the [Coding Train's Video](https://youtu.be/TOEi6T2m
 
 I learned about vectors and the fundamentals of raycasting.
 
+<img src="assets/raycasting.PNG">
+
 ### Github page
 https://jinkang-0.github.io/Raycasting/
