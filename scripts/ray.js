@@ -32,6 +32,7 @@ class Ray {
     const x4 = this.pos.x + this.dir.x;
     const y4 = this.pos.y + this.dir.y;
 
+    // line-line intersection formula
     let denom = (x1 - x2)*(y3 - y4) - (y1 - y2)*(x3 - x4);
     if (denom == 0) return;
 

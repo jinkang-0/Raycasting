@@ -1,7 +1,7 @@
 // declare variables
 let pointSize = 4;
-let rayLength = 20;
-let particleSize = 5;
+let rayLength = 0.1;
+let particleSize = 0.1;
 let brightness = 0.2;
 
 // setup canvas
@@ -21,6 +21,7 @@ window.addEventListener('mousemove', (event) => {
   particle.updatePos(event.clientX, event.clientY);
 });
 
+// setup scene
 var walls = [];
 
 for (var i = 0; i < 5; i++) {
