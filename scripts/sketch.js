@@ -24,7 +24,7 @@ window.addEventListener('mousemove', (event) => {
 // setup scene
 var walls = [];
 
-for (var i = 0; i < 6; i++) {
+for (var i = 0; i < 5; i++) {
   const x1 = random(canvas.width);
   const y1 = random(canvas.height);
   const x2 = random(canvas.width);
